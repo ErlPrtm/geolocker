@@ -9,7 +9,7 @@ GeoLocker is a Flutter project designed to track the user's location periodicall
 - Getting Started
 
 ## Prerequisites
-- Install Flutter:
+Install Flutter:
 
 Follow the Flutter installation guide.
 Install Android Studio and Xcode:
@@ -49,14 +49,15 @@ It fetches the latitude, longitude, and address using the geolocator and geocodi
 - Location History
 The app saves the location data (date, latitude, longitude, and address) to a local SQLite database.
 The location history is displayed in a list format, showing the day, date, latitude, longitude, and address.
+
 - Testing the App
 
-Android
+-- Android
 Install the APK on a physical Android device or emulator.
 Grant location permissions when prompted.
 Verify that the location is tracked and displayed in the history.
 
-iOS
+-- iOS
 Install the IPA on a physical iOS device (background tracking cannot be tested on the simulator).
 Grant location permissions when prompted.
 Verify that the location is tracked and displayed in the history.
@@ -64,6 +65,7 @@ Verify that the location is tracked and displayed in the history.
 - Troubleshooting
 Android
 If the emulator does not display, restart the ADB server:
+
 iOS
 If the app fails to build, ensure signing and provisioning profiles are configured in Xcode.
 Let me know if you need further assistance!
